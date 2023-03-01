@@ -1,0 +1,748 @@
+VEREMOS OS COMANDOS INICIAIS 
+
+
+
+OBRIGATÓRIOS DO LINUX...
+
+
+
+
+
+
+
+
+
+
+
+-> VAMOS NO DEBIAN,
+
+ABRIMOS O TERMINAL DE COMANDOS...
+
+
+
+
+
+
+
+
+
+
+
+
+--> o professor tem o TERMINATOR...
+
+
+
+
+
+
+
+
+
+
+
+
+--> OK...
+
+
+
+
+TEMOS 1 TERMINAL DE COMANDOS...
+
+
+
+
+
+
+
+
+
+---> O PROFESSOR COMEÇA PELO COMANDO 
+
+
+
+
+
+'man' -------> É O MANUAL DO LINUX...
+
+
+
+
+
+
+
+
+
+
+
+
+--> SERVE PARA VER EXATAMENTE COMO 
+
+
+1 DETERMINADO COMANDO FUNCIONA...
+
+
+
+
+
+
+
+
+--> COMEÇAMOS COM 'man ls' --> 
+
+
+
+
+
+
+
+
+QUANDO FAZEMOS ISSO,
+
+
+SOMOS ENVIADOS PARA A 
+
+
+
+
+
+tela de MANUAL desse comando...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> MAN LS --> 
+
+
+
+
+
+
+
+
+PÁGINA DE MANUAL DESSE COMANDO  LS....
+
+
+
+
+
+
+
+
+
+
+
+
+-> COM ISSO,
+
+
+TEMOS 1 LISTA OU CONTEÚDO DO DIRETÓRIO..
+
+
+
+
+
+
+
+
+
+--> TEMOS 1 DESCRIÇÃO MAIS COMPLETA DE COMO ESSE 
+
+
+COMANDO FUNCIONA....
+
+
+
+
+
+
+--> TEMOS O NOME DO NEGÓCIO E ENTÃO SEUS APELIDOS (
+
+    ls, dir, vdir..
+)
+
+
+
+
+
+
+
+
+
+
+--> ESSES APELIDOS SÃO OS OUTROS COMANDOS QUE FAZEM A MESMA COISA.. 
+
+
+
+
+
+
+
+
+
+--> TEMOS A DESCRIÇÃO DE COMO ESSE COMANDO FUNCIONA...
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> TEMOS PARÂMETROS --> LISTAR, MAS LISTAR COM MAIS INFORMAÇÕES (mudar o comportamento desse comando, por meio desses parâmetros)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> OK... GERALMENTE OS PARÂMETROS SÃO ESCRITOS COM '-xxxxx'....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> MAIS PARA O FINAL,
+
+SE TIVERMOS SORTE NO  COMANDO QUE ESTAMOS ACESSANDO,
+
+
+
+
+
+PODEMOS TER EXEMPLOS..
+
+
+
+
+
+
+
+
+
+
+--> QUANDO TERMINAMOS DE LER ISSO AÍ,
+
+PODEMOS ESCREVER 'CTRL + C'
+
+
+ou 
+
+
+'-q'... (para quitar)...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> O COMANDO 'ls -h'
+
+
+
+
+NOS 
+
+
+
+
+
+
+COLOCA 1 PÁGINA DE HELP, SIM, 
+
+
+MAS ELA É MENOR DO QUE 'man nome_do_comando'...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> O MAN É BEM MAIS COMPLETO DO QUE 'HELP'....
+
+
+
+
+
+
+
+
+
+
+
+
+--> TAMBÉM TEMOS OUTROS COMANDOS ---> 
+
+
+
+
+
+
+
+
+
+
+um exemplo de comando é o 'SU'..
+
+
+
+
+
+
+
+--> TE DEIXA 'SE TORNAR UM OUTRO USUÁRIO' -->  SUPER USUÁRIO...
+
+
+
+
+
+
+
+
+--> O 'ROOT'
+
+
+
+
+
+
+
+
+
+
+--> SU --> SUPER-USER -> 
+
+
+
+
+
+
+
+
+
+
+
+
+SU É MAIS DO QUE 'SUDO'...
+
+
+
+
+
+
+
+
+
+
+
+-> O SU GERALMENTE É USADO PARA SE TORNAR O 'SUPER USUÁRIO',
+
+O 
+
+ROOT,
+
+
+O 
+
+
+
+USUÁRIO COM MAIOR QUANTIDADE DE 
+
+
+
+PRIVILÉGIOS NO SISTEMA LINUX..
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> 'su' --> se n colocamos nenhum parÂemtro,
+
+
+
+
+ESTAMOS TENTANDO NOS TORNAR O SUPER USUÁRIO...
+
+
+
+
+
+
+
+
+
+
+--> DEVEMOS COLOCAR A SENHA DE NOSSA MÁQUINA...
+
+
+
+
+
+
+
+
+
+
+--> COM O 'SU',
+
+NOS TORNAMOS O USUÁRIO ROOT,
+
+e 
+
+
+SE 
+
+QUISERMOS 
+
+VOLTAR A SER O 
+
+
+'USUÁRIO COMUM',
+
+
+
+DEVEMOS ESCREVER 'exit'.. --> 
+
+
+
+
+
+
+
+
+
+EX:
+
+
+
+
+
+
+
+
+
+arthur@arthur-P:~$ su 
+Password: 
+ssu: Authentication failure
+arthur@arthur-P:~$ su 
+Password: 
+su: Authentication failure
+arthur@arthur-P:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> SE CONSEGUIMOS ENTRAR NESSE TERMINAL, NO 'TERMINAL DO SUPER USER',
+
+
+
+
+
+
+
+
+
+NOSSO NEGÓCIO FICA TIPO 
+
+
+
+
+
+'root@ubuntu'.. --> 
+
+
+
+
+
+
+
+
+SE DIGITARMOS 'EXIT',
+
+VOLTAMOS 
+
+
+AO USUÁRIO QUE ESTÁVAMOS USANDO ANTES (
+
+    o usuário comum...
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> REPARE QUE, DEPOIS DE ':',
+
+
+
+
+TEMOS 
+
+'~'...
+
+
+
+
+
+
+
+
+
+
+
+
+--> '~' -> TIL --> ISSO É UMA ABREVIAÇÃO DO DIRETÓRIO PRINCIPAL DO USUÁRIO....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> quando sou 
+
+
+
+O 'ROOT',
+
+O 
+
+
+
+DIRETÓRIO PRINCIPAL DO ROOT É O '/root'..
+
+
+
+
+
+
+
+
+
+
+
+QUANDO SOU MEU USER,
+
+
+
+
+
+O 
+
+DIRETÓRIO 
+
+
+DE USUÁRIO PRINCIPAL É 
+
+'/home/arthur',
+
+
+
+
+
+
+O QUE QUER DIZER QUE 
+'~' 
+
+
+É UMA ABREVIAÇÃO DO _ 'LOCAL EM QUE __ ESTAMOS ATUALMENTE'...
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> CERTO..
+
+
+
+
+
+
+
+E SE QUISERMOS NOS TORNAR 1 USUÁRIO QUALQUER,
+
+
+DEVEMOS 
+
+ESCREVER 
+
+
+
+
+'su nome_do_usuario_que_queremos_nos_tornar'...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OUTRA POSSIBILIDADE É A
+
+ INSTALAÇÃO DE NOVOS PACOTES, QUE É SUPER IMPORTANTE..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ --> O PROFESSOR COMEÇA COM A INSTAÇÃO DO 'SUDO',
+
+ QUE É OUTRO COMANDO SUPER ÚTIL MAS QUE 
+
+ N 
+
+ VEM 
+
+ POR DEFAULT NO DEBIAN --> PARA ISSO,
+
+ O PROFESSOR 
+
+ PRECISA 
+
+ SE 
+ TORNAR O ROOT (com 'su')...
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> DEPOIS DISSO,
+
+
