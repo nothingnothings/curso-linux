@@ -746,3 +746,264 @@ OUTRA POSSIBILIDADE É A
 -> DEPOIS DISSO,
 
 
+
+
+temos vários comandos, que vou colocando em uma lista:
+
+
+
+
+
+
+
+
+
+
+
+
+
+sudo --> deve ser instalado, permite tornar-se super-user pela duração de 1 comando..
+
+
+
+
+
+
+
+
+
+
+--> usermod ---> é comando utilizado para rodar qualquer operação envolvendo usuário
+
+
+
+
+
+
+
+passwd --> MODIFICA A SENHA DE 1 USUÁRIO.. 
+
+sudo passwd [nome_do_user]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+useradd --> ADICIONA 1 USUÁRIO NOVO.... 
+
+
+
+
+sudo useradd [nome_do_user] -d /home/[nome_do_user] -p [senha_do_user]
+
+
+
+
+
+
+
+
+
+
+groupadd --> adiciona 1 GRUPO DE USUÁRIOS, QUE É UTILIZADO PARA CONCEDER PERMISSÕES AOS USUÁRIOS DELE....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sudo usermod -aG nome_do_user  --> É USADO PARA ADICIONAR USERS A GRUPOS DE PERMISSÃO...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------
+
+
+ARQUIVOS E PASTAS:
+
+
+
+
+
+
+
+/bin --> PASTA DOS BINÁRIOS DO LINUX (comandos possíveis de serem executados)..
+
+
+
+
+
+
+
+
+
+
+/boot --> ARQUIVOS DE INICIALIZAÇÃO DE SISTEMA..
+
+
+
+
+
+
+
+
+
+/dev --> APARELHOS E PERIFÉRICOS... 
+
+
+
+
+
+
+
+
+/etc --> ARQUIVOS DE CONFIGURAÇÃO DA MÁQUINA E ESPECÍFICOS A USUÁRIOS...
+
+
+
+
+
+
+
+/home --> ARMAZENA DIRETÓRIOS DE USUÁRIOS (é equivalente a 'C:\Users')...
+
+
+
+
+
+
+
+
+
+
+
+/lib e lib64 -> equivalente ao SYSTEM32 E SYSTEM do window.s.
+
+
+
+
+
+
+
+/lost+found --> ACHADOS E PERDIDOS DO SISTEMA...
+
+
+
+
+
+
+
+/media --> mount de USBS e DVD ROMS...
+
+
+
+
+
+
+/opt --> opcional.
+ 
+
+
+ /proc --> DIRETÓRIO DE INFORMAÇÕES DO SISTEMA, como processador, memória, etc..
+
+
+
+
+
+
+
+
+ /root --> pasta somente acessível pelo super user ..
+
+
+
+
+
+
+ /run --> processos em andamento ficam armazeandos aqui..
+
+
+
+
+
+
+ /sbin --> BINÁRIOS de uso do SUPER USER....
+
+
+
+
+
+
+/srv --> dados de serviços em execução....
+
+
+
+
+
+
+
+
+
+
+/sys --> ARMAZENA MÓDULOS DE EQUIPAMENTOS USB....
+
+
+
+
+
+
+/tmp -> arquivos temporários de todos os usesr...
+
+
+
+
+
+
+
+/usr --> arquivos de prograsm, basicamente...
+
+
+
+
+
+/var ---> DADOS DE TAMANHOS VARIADOS, COISAS COMO DADOS DOS BANCOS DE DADOS...
